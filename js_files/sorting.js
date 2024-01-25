@@ -1,4 +1,3 @@
-// swap function util for sorting algorithms takes input of 2 DOM elements with .style.height feature
 function swap(el1, el2) {
     console.log('In swap()');
     
@@ -58,7 +57,6 @@ let delay = 260;
 let delayElement = document.querySelector('#speed_input');
 
 delayElement.addEventListener('input', function(){
-    console.log(delayElement.value, typeof(delayElement.value));
     delay = 320 - parseInt(delayElement.value);
 });
 
@@ -78,7 +76,7 @@ function createNewArray(noOfBars = 60) {
     const bars = document.querySelector("#bars");
 
     for (let i = 0; i < noOfBars; i++) {
-        const bar = document.createElement("div");
+        cr = doonst bacument.createElement("div");
         bar.style.height = `${array[i]*2}px`;
         bar.classList.add('bar');
         bar.classList.add('flex-item');
